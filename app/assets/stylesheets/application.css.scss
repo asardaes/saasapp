@@ -37,10 +37,15 @@ h1, h2, h3 {
   border: none;
 }
 
+.navbar-brand {
+  font-weight: 800;
+}
+
 // CSS selectors
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
+  font-family: 'Open Sans', sans-serif;
   
   // sass nesting
   &:hover {
